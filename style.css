@@ -19,7 +19,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
-  .flip-card:hover .flip-card-inner {
+  .flip-card:hover .flip-card-inner { /* we can't have hover rotate 
+                                      or else they don't need to guess the card
+                                      cool concept tho. I need to call rotateY when clicked */
     transform: rotateY(180deg);
   }
   
